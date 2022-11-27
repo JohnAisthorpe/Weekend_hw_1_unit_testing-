@@ -142,7 +142,6 @@ def sell_pet_to_customer(pet_shop, pet, customer):
             get_total_cash(pet_shop)
 
 #23
-#22
 def sell_pet_to_customer(pet_shop, pet, customer):
     for pet_profile in pet_shop["pets"]:
         if pet_profile == pet and customer["cash"] >= pet_profile["price"]:
